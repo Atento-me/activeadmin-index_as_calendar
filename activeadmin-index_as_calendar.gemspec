@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", ">= 4"
-  s.add_dependency "activeadmin"
+  s.add_dependency "activeadmin", '~> 2.0'
 
   s.add_dependency 'momentjs-rails'
   s.add_dependency 'fullcalendar-rails', '~> 3.1'
